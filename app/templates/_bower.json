@@ -1,0 +1,26 @@
+{
+  "name": "<%= _.slugify(pack.name) %>",
+  "version": "0.0.1",
+  "dependencies": {
+
+  },
+
+  "devDependencies": {
+        "jasmine-reporters": "master",
+        "jasmine": "1.3.1",
+        "jasmine-bootstrap": "master",
+        "yuidoc-bootstrap-theme": "kevinlacotaco/yuidoc-bootstrap-theme"
+  },
+
+  "main": "dist/<%= pack.dist %>.min.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "dependencies",
+    "test"
+  ]
+
+}
+
+
+

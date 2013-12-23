@@ -1,0 +1,95 @@
+{
+  "name": "<%= pack.name %>",
+  "version": "0.0.1",
+  "description": "<%= pack.description %>",
+  "keywords": <%= pack.keywords %>,
+
+  "author": {
+    "name": "<%= author.name %>",
+    "email": "<%= author.mail %>",
+    "url": "<%= author.url %>"
+  },
+
+  "maintainers": [
+    {
+      "name": "<%= maintainer.name %>",
+      "email": "<%= maintainer.mail %>",
+      "url": "<%= maintainer.url %>"
+    }
+  ],
+  "contributors":[
+    {
+      "name": "<%= contributor.name %>",
+      "email": "<%= contributor.mail %>",
+      "url": "<%= contributor.url %>"
+    }
+  ],
+  "bugs": "https://github.com/<%= pack.owner %>/<%= pack.name %>/issues",
+
+  "homepage": "<%= pack.homepage %>",
+
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/<%= pack.owner %>/<%= pack.name %>.git"
+  },
+
+  "dependencies": {
+  },
+
+  "license": "<%= pack.license %>",
+
+  "main": "dist/<%= pack.dist %>.min.js",
+
+  "readmeFilename": "README.md",
+
+  "devDependencies": {
+    "matchdep": "~0.3.0",
+
+    "grunt": "~0.4.2",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-watch": "~0.5.3",
+
+    "grunt-notify": "~0.2.16",
+    "time-grunt": "~0.2.0",
+
+    "grunt-contrib-sass": "~0.6.0",
+    "grunt-contrib-handlebars": "~0.6.0",
+
+    "grunt-contrib-imagemin": "~0.4.0",
+    "grunt-contrib-htmlmin": "~0.1.3",
+    "grunt-contrib-uglify": "~0.2.7",
+
+    "grunt-contrib-csslint": "~0.2.0",
+    "grunt-contrib-jshint": "~0.7.2",
+    "jshint-stylish": "~0.1.3",
+
+    "grunt-contrib-yuidoc": "~0.5.0",
+    "grunt-contrib-jasmine": "~0.5.2",
+    "grunt-template-jasmine-istanbul": "~0.2.5",
+
+    "grunt-ember-handlebars": "~0.7.0"
+  },
+
+  "out": {
+    "grunt-bower-task": "~0.3.4",
+    "grunt-svgmin": "~0.2.0",
+    "grunt-concurrent": "~0.4.0",
+    "load-grunt-tasks": "~0.2.0",
+    "grunt-contrib-compass": "~0.7.0",
+    "grunt-contrib-cssmin": "~0.7.0",
+    "handlebars": "~1.1.2",
+    "ember-template-compiler": "~1.3.0-beta.3",
+    "grunt-ember-templates": "~0.4.18"
+  },
+
+  "directories": {
+      "tmp": ".tmp",
+      "src": "src",
+      "tests": "tests",
+      "dist": "dist",
+      "doc": "doc",
+      "build": ".build"
+  }
+}
+

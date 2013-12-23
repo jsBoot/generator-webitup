@@ -1,0 +1,45 @@
+{
+  "name": "generator-webitup",
+  "version": "0.0.1",
+  "description": "WIU scaffolding base",
+  "keywords": [
+    "yeoman-generator",
+    "wiu",
+    "scaffolding",
+    "web"
+  ],
+  "homepage": "https://github.com/webitup/generator-webitup",
+  "bugs": "https://github.com/webitup/generator-webitup/issues",
+  "author": {
+    "name": "Mangled Deutz",
+    "email": "olivier@webitup.fr",
+    "url": "https://github.com/dmp42"
+  },
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/webitup/generator-webitup.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "yeoman-generator": "~0.14.0",
+    "inquirer": "~0.3.5"
+  },
+  "devDependencies": {
+    "mocha": "~1.14.0"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=1.2.10"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}
